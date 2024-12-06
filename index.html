@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Wonder Travel - José Espinoza</title>
+   
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#atracciones">Atracciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tours">Tours</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reserva">Reserva</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="jumbotron text-center">
+        <h1 class="display-4">Vacaciones Inolvidables</h1>
+        <p class="lead">Elige tu destino perfecto: Playa o Montaña</p>
+    </section>
+
+   <!-- Sección de Atracciones -->
+<section id="atracciones" class="container">
+    <h2>Atracciones de Montaña</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Atracción 1</h3>
+            <h4>Camping</h4>
+            <img src="/Imagenes/Camping.jpg" class="img-fluid atraccion-img" alt="Atracción 1">
+            <p>El Camping es una actividad que consiste en instalar una vivienda temporal en un lugar al aire libre para habitarla..</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Atracción 2</h3>
+            <h4>Escalada</h4>
+            <img src="/Imagenes/escalada2.jpg" class="img-fluid atraccion-img" alt="Atracción 2">
+            <p>La escalada es una actividad que consiste en ascender por paredes naturales utilizando el cuerpo y la mente. .</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Atracción 3</h3>
+            <h4>Senderismo</h4>
+            <img src="/Imagenes/Senderismo.jpg" class="img-fluid atraccion-img" alt="Atracción 3">
+            <p>El senderismo es una actividad deportiva y recreativa que consiste en caminar por senderos o rutas naturales.</p>
+        </div>
+    </div>
+    <h2>Atracciones Playeras</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Atracción 4</h3>
+            <h4>Voley de Playa</h4>
+            <img src="/Imagenes/Voley.jpg" class="img-fluid atraccion-img" alt="Atracción 4">
+            <p>El voleibol de playa es un deporte en el que dos equipos de dos jugadores se enfrentan en una cancha de arena, separados por una red, con el objetivo de pasar el balón por encima de la red y al suelo del campo contrario.</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Atracción 5</h3>
+            <h4>Alquiler de Barcos</h4>
+            <img src="/Imagenes/Alquiler-barcos.jpg" class="img-fluid atraccion-img" alt="Atracción 5">
+            <p>El alquiler de barcos, también conocido como chárter náutico, es un servicio que permite alquilar una embarcación para uso recreativo o turístico por un período de tiempo.  </p>
+        </div>
+        <div class="col-md-4">
+            <h3>Atracción 6</h3>
+            <h4>Buceo</h4>
+            <img src="/Imagenes/Buceo2.jpg" class="img-fluid atraccion-img" alt="Atracción 6">
+            <p>El buceo es una actividad que consiste en sumergirse en el agua para realizar una actividad deportiva, científica, profesional o militar.</p>
+        </div>
+    </div>
+</section>
+
+   <!-- Sección de Tours -->
+<section id="tours" class="container">
+    <h2>Tours</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Tour 1</h3>
+            <img src="/Imagenes/Senderismo.jpg" class="img-fluid atraccion-img tour-img" alt="Tour 1">
+            <img src="/Imagenes/Escalada.jpg" class="img-fluid atraccion-img tour-img" alt="Tour 1">
+            <img src="/Imagenes/Camping.jpg" class="img-fluid atraccion-img tour-img" alt="Tour 1">
+            <p>El Tour 1 incluye Senderismo por diferentes rutas a escoger, Escalada y una Acampada al aire libre en una zona tranquila y protegida. </p>
+        </div>
+        <div class="col-md-6">
+            <h3>Tour 2</h3>
+            <img src="/Imagenes/Alquiler-barcos.jpg" class="img-fluid atraccion-img tour-img" alt="Tour 2">
+            <img src="/Imagenes/Buceo.jpg" class="img-fluid atraccion-img tour-img" alt="Tour 2">
+            <img src="/Imagenes/Esnorquél.jpg" class="img-fluid atraccion-img tour-img" alt="Tour 2">
+            <p>El Tour #2 incluye un alquiler de barco para bucear, Esnorquél y relajación al aire libre en el mar.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Formulario de Reserva -->
+    <section id="reserva" class="container">
+        <h2>Formulario de Reserva</h2>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="numAdultos">Número de Adultos:</label>
+                <input type="number" class="form-control" id="numAdultos" required>
+            </div>
+            <div class="form-group">
+                <label for="numNiños">Número de Niños:</label>
+                <input type="number" class="form-control" id="numNiños" required>
+            </div>
+            <div class="form-group">
+                <label for="pago">Forma de Pago:</label>
+                <select class="form-control" id="pago">
+                    <option>Tarjeta de Crédito</option>
+                    <option>Paypal</option>
+                    <option>Transferencia Bancaria</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="direccion">Dirección:</label>
+                <input type="text" class="form-control" id="direccion" required>
+            </div>
+            <div class="form-group">
+                <label for="celular">Celular:</label>
+                <input type="tel" class="form-control" id="celular" required>
+            </div>
+            <div class="form-group">
+                <label for="telFijo">Teléfono Fijo:</label>
+                <input type="tel" class="form-control" id="telFijo" required>
+            </div>
+            <div class="form-group">
+                <label for="atracciones">Atracciones:</label>
+                <select multiple class="form-control" id="atracciones">
+                    <option>Atracción 1 (Camping) </option>
+                    <option>Atracción 2 (Escalada)</option>
+                    <option>Atracción 3 (Senderismo)</option>
+                    <option>Atracción 4 (Voley de Playa)</option>
+                    <option>Atracción 5 (Alquiler de barcos)</option>
+                    <option>Atracción 6 (Buceo)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="tours">Tours:</label>
+                <select multiple class="form-control" id="tours">
+                    <option>Tour #1 (Playa)</option>
+                    <option>Tour #2 (Montaña)</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer id="footer" class="text-center">
+        <p>&copy; 2024 Wonder Travel</p>
+        <p>Teléfono: +506 7020-0684</p>
+        <p>Email: contacto@Wondertravel.com</p>
+    </footer>
+
+    <button id="back-to-top" title="Volver al Inicio">&#8679;</button>
+
+    <script>
+        // Mostrar el botón cuando el usuario se desplaza hacia abajo 20px desde la parte superior del documento
+        window.onscroll = function() {scrollFunction()};
+    
+        function scrollFunction() {
+            var backToTopButton = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+    
+        document.getElementById("back-to-top").onclick = function() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    
+    <!-- Bootstrap JS -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
